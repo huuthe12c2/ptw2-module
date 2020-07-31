@@ -1,0 +1,32 @@
+.hight{
+    .w-row{
+        width: 800px;
+    }
+    margin: 250px auto;
+    .border-hight{
+        border-radius: 5px;
+        padding: 5px;
+        .icon-contai{
+            color: #5a7ff0;
+            font-size:35px;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-color: #eaf0fe;
+            padding-top: 5px;
+            padding-left: 17.5px;
+        
+        }
+        
+        .title-hight{
+            .title{
+                font-size: 20px;
+                font-weight: bold;
+            }
+            p{
+                margin-top: 10px;
+                color: #757575;
+            }
+        }
+    }
+}

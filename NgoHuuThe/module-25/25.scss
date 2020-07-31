@@ -1,0 +1,79 @@
+.mg-bg{
+    margin: 200px auto;
+    .gsc-heading{
+        text-align: center;
+        .sub-title{
+            span{
+                color: #3eaafd;
+                text-transform: uppercase;
+            }
+        }
+        .title{
+            display: inline-block;
+            text-align: center;
+            width: 550px;
+        }
+        .title-desc{
+            color: #757575;
+        }
+        margin-bottom: 40px;
+    }
+    
+    .hover-slide-next{
+        position: relative;
+        .slide-img{
+            position: relative;
+            .img-slide{
+                width: 360px;
+                height: 440px;
+            }
+            .name-slide{
+                position: absolute;
+                bottom: 30px;
+                left: 20px;
+                .new-post{
+                    color: #fff;
+                    background-color: #3eaafd;
+                    padding: 2px 5px 2px;
+                }
+                .desc-post{
+                    color: #fff;
+                    font-size: 20px;
+                    font-weight: bolder;
+                }
+            }
+        }
+        .swiper-button-prev, .swiper-button-next{
+            position: absolute;
+            opacity: 0;
+            background-color: #fff;
+           width: 50px;
+           margin-left: -20px;
+           box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 20px;
+           color: rgb(117, 117, 117) !important;
+            transition: all 0.3s ease 0s;
+            background: rgb(246, 246, 246);
+        }
+        
+        .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+            position: absolute;
+            opacity: 0;
+            background-color: #fff;
+           width: 50px;
+           margin-right: -20px;
+           box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 20px;
+           color: rgb(117, 117, 117) !important;
+    transition: all 0.3s ease 0s;
+    background: rgb(246, 246, 246);
+        }
+
+    }
+    .hover-slide-next:hover{
+        .swiper-button-prev, .swiper-button-next{
+            opacity: 1;
+            background-color: #3eaafd;
+            color: #fff !important;
+        }
+        
+    }
+}
